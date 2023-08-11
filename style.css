@@ -1,0 +1,70 @@
+body{
+  background-color: blue;
+
+}
+#caintainer{
+  /* height:200px; */
+  height: 450px;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  display:inline-block;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.heading{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.data input{
+  width:90%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border: 1px solid black;
+  display: flex;
+  margin-top: -10px;
+}
+.data{
+  margin-left:5%;
+
+}
+.data p{
+  font-weight: 500;
+}
+.check{
+  display: flex;
+  position: relative;
+  top: 20px;
+  left: 18px;
+  font-size:1rem;
+}
+button{
+  height: 50px;
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 50px;
+  background-color:rgba(29, 15, 219, 0.801);
+  border-radius: 5px;
+  border: 1px solid black;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.login{
+  font-size:1rem;
+  text-align: center;
+}
+a{
+  text-decoration:none ;
+}
+
+.login-text {
+  margin-top: 40px;
+}
